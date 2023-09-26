@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: 'https://github.com/AlexMagargiu/React-Meme-Generator',
+    base: 'https://AlexMagargiu.github.io/React-Meme-Generator',
   }
 
   if (command !== 'serve') {
